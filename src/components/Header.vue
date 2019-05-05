@@ -11,7 +11,8 @@ export default {
 </script>
 
 <style lang="css" scoped>
-h1 {
-  margin-top: 10px;
+#banner {
+  padding-top: 10px;
+  color: white;
 }
 </style>

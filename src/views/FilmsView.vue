@@ -1,18 +1,20 @@
 <template lang="html">
   <div v-if="films" id="view">
+    <!-- <Header /> -->
     <FilmList :films='films' />
     <FilmInfo v-if="selectedFilm" :film="selectedFilm" />
   </div>
 </template>
 
 <script>
+import Header from '@/components/Header'
 import FilmList from '@/components/FilmList';
 import FilmInfo from '@/views/FilmInfo';
 import {eventBus} from '@/main.js';
 
 export default {
   name: 'film-view',
-  components: { FilmList, FilmInfo },
+  components: { Header, FilmList, FilmInfo },
   data() {
     return {
       films: [],
@@ -35,6 +37,7 @@ export default {
 
 <style lang="css" scoped>
 #view {
-  
+
+  color: white;
 }
 </style>

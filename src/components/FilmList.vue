@@ -1,5 +1,6 @@
 <template lang="html">
-  <div v-if="films">
+  <div v-if="films" id="list">
+    <Header />
     <ul>
       <FilmListItem v-for="(film, index) in films" :key="index" :film="film" />
     </ul>
@@ -8,17 +9,26 @@
 
 <script>
 import FilmListItem from './FilmListItem';
+import Header from './Header';
 
 export default {
   name: 'film-list',
-  components: { FilmListItem},
+  components: { FilmListItem, Header},
   props: ['films']
 }
 </script>
 
 <style lang="css" scoped>
+#list {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  color: white;
+}
+
 h1 {
-  margin-top: 10px;
+  color: white;
+  padding-top: 10px;
 }
 
 </style>

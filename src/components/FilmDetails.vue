@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <h1>{{ film.title }}</h1>
+    <p>{{ film.description }}</p>
   </div>
 </template>
 

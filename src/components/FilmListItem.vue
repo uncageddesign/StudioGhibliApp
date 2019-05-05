@@ -1,5 +1,5 @@
 <template lang="html">
-  <div>
+  <div id="list">
     <router-link :to="{ name: 'filmInfo', params: {film} }">
       <li v-on:click="handleClick">{{ film.title }}</li>
     </router-link>
@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+#list {
+  color: white;
+}
+
 li {
   width: 300px;
   margin: 2px 0;
@@ -31,6 +35,13 @@ li {
   display: block;
   list-style-type: none;
   cursor: pointer;
+}
+
+a {
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
 }
 
 li:hover {
