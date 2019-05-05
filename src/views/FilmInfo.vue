@@ -33,11 +33,11 @@ export default {
 }
 
 #info {
-  background-color: rgba(200, 200, 200, 0.4);
+  /* background-color: rgba(200, 200, 200, 0.4); */
   padding: 30px;
   width: 650px;
   margin-right: 100px;
-  color: black;
+  color: white;
   font-size: 18px;
   font-family: 'Quicksand', sans-serif;
 }

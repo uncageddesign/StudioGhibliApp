@@ -21,6 +21,7 @@ a {
   text-decoration: none;
   font-size: 16px;
   font-family: 'Quicksand', sans-serif;
+  color: black;
 }
 
 </style>

@@ -20,7 +20,7 @@ body {
   justify-content: flex-end;
   background-color: lightblue;
   height: 100vh;
-  background-image: url('~@/assets/Tales-from-Earthsea.jpg');
+  background-image: url('~@/assets/studio.jpg');
   background-size: cover;
 }
 </style>
