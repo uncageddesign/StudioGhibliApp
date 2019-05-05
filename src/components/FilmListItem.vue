@@ -22,23 +22,23 @@ export default {
 </script>
 
 <style lang="css" scoped>
-#list {
-  color: white;
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 
 li {
   width: 300px;
-  margin: 2px 0;
   padding: 2px;
+  margin-left: 150px;
   font-size: 18px;
   text-align: center;
   display: block;
   list-style-type: none;
   cursor: pointer;
+  /* border: solid 2px black; */
 }
 
 a {
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: white;
   text-decoration: none;
   text-shadow: 1px 1px 2px black;

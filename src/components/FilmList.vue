@@ -21,8 +21,8 @@ export default {
 <style lang="css" scoped>
 #list {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 100px;
+  flex-direction: column;
+  /* margin-right: 100px; */
   color: white;
 }
 
